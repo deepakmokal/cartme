@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    -ms-grid-columns: (minmax(480px, 1fr)) [auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    grid-gap: 20px;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 1em;
+  }
+  
+  .card_head h3 {
+    color: dodgerblue;
+  }
+  
+  .card-img {
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .card-img img {
+    height: 150px;
+    width: 150px;
+  }
+  
+  ul {
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  ul.ullandSuccess {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+  }
+  

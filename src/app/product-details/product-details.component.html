@@ -1,0 +1,53 @@
+
+<div class="container">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <h2 class="text-primary">Title:{{data_prod[0].name}}</h2>
+            <p> <strong>Description:</strong> {{data_prod[0].content}}</p>
+            <h3> <strong>Price:</strong>{{data_prod[0].price}}</h3>
+            <button mat-raised-button color="primary"
+            (click)="cart.addToCart()"
+            class="">Add To Card</button>
+    
+            <div class="specification mt-5">
+                <p><strong>specification</strong></p>
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>RAM</td>
+                            <td>{{data_prod[0].specification.RAM}}</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Memory</td>
+                            <td>{{data_prod[0].specification.Memory}}</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Processor</td>
+                            <td>{{data_prod[0].specification.Processor}}</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Display</td>
+                            <td>{{data_prod[0].specification.Display}}</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Operating System</td>
+                            <td>{{data_prod[0].specification.OperatingSystem}}</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <img [src]="data_prod[0].imageUrl" height="400" width="400" alt="Image here">
+            
+    
+        </div>
+    </div>
+</div>
+

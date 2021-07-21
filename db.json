@@ -1,0 +1,96 @@
+
+
+
+{
+  "users": [
+    { "id": 1, "username": "admin", "password": "admin@123" },
+    { "id": 2, "username": "user", "password": "user@123" }
+  ],
+  "products": [
+    {
+      "id": 201,
+      "name": "Tab",
+      "price": "$200",
+      "categoryId": 1,
+      "rate": 2.44,
+      "content": "In computer software such as an Internet browser, a tab is clickable area at the top of a window. When clicked, the contents of the window below the tab displays that tab's document or interface.",
+      "review": 78,
+      "imageUrl": "../assets/tab.png",
+      "specification":{
+        "RAM": "16GB",
+        "Memory": "500GB",
+        "Processor": "3.2GHz 10054",
+        "Display": "19:8",
+        "OperatingSystem": "Andriod"
+      }
+    },
+    {
+      "id": 202,
+      "name": "Mobile",
+      "price": "$100",
+      "categoryId": 1,
+      "rate": 2.18,
+      "content": "A mobile phone, cellular phone, cell phone, cellphone, handphone, or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.",
+      "review": 67,
+      "imageUrl": "../assets/mobile.jpg",
+      "specification":{
+        "RAM": "8GB",
+        "Memory": "120GB",
+        "Processor": "1.2GHz 50054",
+        "Display": "10:8",
+        "OperatingSystem": "IOS"
+      }
+    },
+    {
+      "id": 203,
+      "name": "Laptop",
+      "price": "$250",
+      "categoryId": 1,
+      "rate": 0.91,
+      "content": "A laptop computer is a small personal computer. They are designed to be more portable than traditional desktop computers, with many of the same abilities. Laptops are able to be folded flat for transportation and have a built-in keyboard and touchpad",
+      "review": 116,
+      "imageUrl": "../assets/laptop.jpg",
+      "specification":{
+        "RAM": "32GB",
+        "Memory": "1024GB",
+        "Processor": "3.5GHz 152054",
+        "Display": "19:8",
+        "OperatingSystem": "Windows"
+      }
+    },
+    {
+      "id": 204,
+      "name": "Smart Watch",
+      "price": "$120",
+      "categoryId": 1,
+      "rate": 3.11,
+      "content": "A smartwatch is a wearable computer in the form of a watch; modern smartwatches provide a local touchscreen interface for daily use, while an associated smartphone app provides for management and telemetry (such as long-term biomonitoring).",
+      "review": 78,
+      "imageUrl": "../assets/smartwatch.jpg",
+      "specification":{
+        "RAM": "2GB",
+        "Memory": "8GB",
+        "Processor": "1.3GHz 15a054",
+        "Display": "3:2",
+        "OperatingSystem": "Android"
+      }
+    },
+    {
+      "id": 205,
+      "name": "Smart TV",
+      "price": "$250",
+      "categoryId": 1,
+      "rate": 0.29,
+      "content": "Smart TVs let you stream digital content with the help of in-built wifi, exposing you to a world of unlimited content. Choose from brands like Nokia, Motorola, Samsung, Sony, Vu, Mi, Thomson, iFFALCON by TCl, LG and more",
+      "review": 44,
+      "imageUrl": "../assets/smarttv.jpeg",
+      "specification":{
+        "RAM": "2GB",
+        "Memory": "16GB",
+        "Processor": "1.8GHz 15b054",
+        "Display": "18:9",
+        "OperatingSystem": "Android"
+      }
+    }
+      ]
+} 

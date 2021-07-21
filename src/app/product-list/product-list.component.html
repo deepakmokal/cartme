@@ -1,0 +1,20 @@
+<div class="grid p-5">
+	<article *ngFor="let card of productList;" [id]= "card.id">
+		<div class="card-list">
+			<div class="card-img">
+				<img [src]= "card.imageUrl" alt="img not found">
+            </div>
+
+				<div class="card_head">
+                    <h3>{{card.name}}</h3>
+                    <p> <strong>Description:</strong> {{card.content}}</p>
+
+                    <h3>Price:{{card.price}}</h3>
+					<button mat-raised-button color="accent" [id]= "card.id" (click)="viewProduct($event)" >View Product</button>
+                    <button mat-raised-button color="primary"
+					(click)="cart.addToCart()"
+					class="ml-3">Add To Card</button>
+				</div>
+			</div>
+	</article>
+</div>
